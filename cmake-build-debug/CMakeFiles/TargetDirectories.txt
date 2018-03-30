@@ -1,0 +1,3 @@
+C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir
+C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
