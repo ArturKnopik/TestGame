@@ -18,7 +18,7 @@ Skład:
  ---
  
 # Rozwój projektu
- - 30.03.2018 - Zainportowano podstawowy szablon aplikacji:  
+ - 30.03.2018 - Zaimportowano podstawowy szablon aplikacji:  
  	+ Konfiguracja Cmake:
  		+ Widnows:
  		+ Linux (Do naprawy: na wirtualnej maszynie działa, normalnie zainstalowany Linux już nie)  
@@ -28,7 +28,13 @@ Skład:
  		+ PauseState  
 	- Podjęcie decyzji o stworzeniu Klona Super Mario Bros
 
+ - 03.04.2018 - zaimplementowano prosty model "Entity" <Abstrakcyjna>   
 
+  * Player (grywalna)
+  
+
+ - zaimplementowano prosty model "Controller" <Abstrakcyjna>   
+    - PlayerController (podstawowa kontrolo gracza, brak grawitacji oraz przyśpieszenia)
 
 
 

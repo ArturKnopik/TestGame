@@ -203,6 +203,114 @@ src/Buttoms/Button.cpp.s:
 	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Buttoms/Button.cpp.s
 .PHONY : src/Buttoms/Button.cpp.s
 
+src/Controll/Controller.obj: src/Controll/Controller.cpp.obj
+
+.PHONY : src/Controll/Controller.obj
+
+# target to build an object file
+src/Controll/Controller.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Controll/Controller.cpp.obj
+.PHONY : src/Controll/Controller.cpp.obj
+
+src/Controll/Controller.i: src/Controll/Controller.cpp.i
+
+.PHONY : src/Controll/Controller.i
+
+# target to preprocess a source file
+src/Controll/Controller.cpp.i:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Controll/Controller.cpp.i
+.PHONY : src/Controll/Controller.cpp.i
+
+src/Controll/Controller.s: src/Controll/Controller.cpp.s
+
+.PHONY : src/Controll/Controller.s
+
+# target to generate assembly for a file
+src/Controll/Controller.cpp.s:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Controll/Controller.cpp.s
+.PHONY : src/Controll/Controller.cpp.s
+
+src/Controll/PlayerController.obj: src/Controll/PlayerController.cpp.obj
+
+.PHONY : src/Controll/PlayerController.obj
+
+# target to build an object file
+src/Controll/PlayerController.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj
+.PHONY : src/Controll/PlayerController.cpp.obj
+
+src/Controll/PlayerController.i: src/Controll/PlayerController.cpp.i
+
+.PHONY : src/Controll/PlayerController.i
+
+# target to preprocess a source file
+src/Controll/PlayerController.cpp.i:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.i
+.PHONY : src/Controll/PlayerController.cpp.i
+
+src/Controll/PlayerController.s: src/Controll/PlayerController.cpp.s
+
+.PHONY : src/Controll/PlayerController.s
+
+# target to generate assembly for a file
+src/Controll/PlayerController.cpp.s:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.s
+.PHONY : src/Controll/PlayerController.cpp.s
+
+src/Entity/Entity.obj: src/Entity/Entity.cpp.obj
+
+.PHONY : src/Entity/Entity.obj
+
+# target to build an object file
+src/Entity/Entity.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Entity.cpp.obj
+.PHONY : src/Entity/Entity.cpp.obj
+
+src/Entity/Entity.i: src/Entity/Entity.cpp.i
+
+.PHONY : src/Entity/Entity.i
+
+# target to preprocess a source file
+src/Entity/Entity.cpp.i:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Entity.cpp.i
+.PHONY : src/Entity/Entity.cpp.i
+
+src/Entity/Entity.s: src/Entity/Entity.cpp.s
+
+.PHONY : src/Entity/Entity.s
+
+# target to generate assembly for a file
+src/Entity/Entity.cpp.s:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Entity.cpp.s
+.PHONY : src/Entity/Entity.cpp.s
+
+src/Entity/Player.obj: src/Entity/Player.cpp.obj
+
+.PHONY : src/Entity/Player.obj
+
+# target to build an object file
+src/Entity/Player.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Player.cpp.obj
+.PHONY : src/Entity/Player.cpp.obj
+
+src/Entity/Player.i: src/Entity/Player.cpp.i
+
+.PHONY : src/Entity/Player.i
+
+# target to preprocess a source file
+src/Entity/Player.cpp.i:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Player.cpp.i
+.PHONY : src/Entity/Player.cpp.i
+
+src/Entity/Player.s: src/Entity/Player.cpp.s
+
+.PHONY : src/Entity/Player.s
+
+# target to generate assembly for a file
+src/Entity/Player.cpp.s:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Player.cpp.s
+.PHONY : src/Entity/Player.cpp.s
+
 src/Game.obj: src/Game.cpp.obj
 
 .PHONY : src/Game.obj
@@ -383,6 +491,18 @@ help:
 	@echo ... src/Buttoms/Button.obj
 	@echo ... src/Buttoms/Button.i
 	@echo ... src/Buttoms/Button.s
+	@echo ... src/Controll/Controller.obj
+	@echo ... src/Controll/Controller.i
+	@echo ... src/Controll/Controller.s
+	@echo ... src/Controll/PlayerController.obj
+	@echo ... src/Controll/PlayerController.i
+	@echo ... src/Controll/PlayerController.s
+	@echo ... src/Entity/Entity.obj
+	@echo ... src/Entity/Entity.i
+	@echo ... src/Entity/Entity.s
+	@echo ... src/Entity/Player.obj
+	@echo ... src/Entity/Player.i
+	@echo ... src/Entity/Player.s
 	@echo ... src/Game.obj
 	@echo ... src/Game.i
 	@echo ... src/Game.s

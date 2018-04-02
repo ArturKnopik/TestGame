@@ -9,11 +9,12 @@ PlayState::~PlayState() {
 
 void PlayState::draw() {
 
+    player->draw(game->window);
 }
 
 void PlayState::update(const float dt)
 {
-
+    player->update(dt);
 }
 
 void PlayState::input() {
@@ -45,4 +46,5 @@ PlayState::PlayState(std::shared_ptr<Game> game) {
     event = std::make_shared<sf::Event>();
 
     this->game = game;
+    player=std::unique_ptr<Player>(new Player(100,100,event));
 }

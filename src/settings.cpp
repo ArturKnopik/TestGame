@@ -10,6 +10,6 @@ const int HEIGHT = 720;
 
 //game settings
 
-const int FPS = 20;
+const int FPS = 30;
 // some informations
 // float idleTime; //1000000 = 1s

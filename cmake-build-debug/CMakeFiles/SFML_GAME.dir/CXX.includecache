@@ -656,6 +656,34 @@ memory
 SFML/Graphics.hpp
 ../include/Buttoms/SFML/Graphics.hpp
 
+../include/Controll/Controller.h
+iostream
+-
+memory
+-
+Entity/Entity.h
+-
+
+../include/Controll/PlayerController.h
+SFML/Window/Keyboard.hpp
+-
+Controller.h
+../include/Controll/Controller.h
+
+../include/Entity/Entity.h
+memory
+-
+SFML/Graphics/RenderWindow.hpp
+-
+
+../include/Entity/Player.h
+SFML/Graphics/RectangleShape.hpp
+-
+Controll/PlayerController.h
+-
+Entity.h
+../include/Entity/Entity.h
+
 ../include/Game.h
 vector
 -
@@ -693,6 +721,8 @@ GameState.h
 ../include/GameStates/GameState.h
 
 ../include/GameStates/PlayState.h
+Entity/Player.h
+-
 GameState.h
 ../include/GameStates/GameState.h
 
@@ -731,6 +761,22 @@ C:/Dropbox/projekty/TestGame/src/Buttoms/Buttoms/BasicButton.h
 C:/Dropbox/projekty/TestGame/src/Buttoms/Button.cpp
 Buttoms/Button.h
 C:/Dropbox/projekty/TestGame/src/Buttoms/Buttoms/Button.h
+
+C:/Dropbox/projekty/TestGame/src/Controll/Controller.cpp
+Controll/Controller.h
+C:/Dropbox/projekty/TestGame/src/Controll/Controll/Controller.h
+
+C:/Dropbox/projekty/TestGame/src/Controll/PlayerController.cpp
+Controll/PlayerController.h
+C:/Dropbox/projekty/TestGame/src/Controll/Controll/PlayerController.h
+
+C:/Dropbox/projekty/TestGame/src/Entity/Entity.cpp
+Entity/Entity.h
+C:/Dropbox/projekty/TestGame/src/Entity/Entity/Entity.h
+
+C:/Dropbox/projekty/TestGame/src/Entity/Player.cpp
+Entity/Player.h
+C:/Dropbox/projekty/TestGame/src/Entity/Entity/Player.h
 
 C:/Dropbox/projekty/TestGame/src/Game.cpp
 Game.h

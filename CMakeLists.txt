@@ -42,11 +42,11 @@ set(SOURCE_FILES
         include/GameStates/PauseState.h
         src/Game.cpp
         include/Game.h
-        )
+        src/Entity/Entity.cpp include/Entity/Entity.h src/Entity/Player.cpp include/Entity/Player.h src/Controll/Controller.cpp include/Controll/Controller.h src/Controll/PlayerController.cpp include/Controll/PlayerController.h)
 
 set(EXECUTABLE_NAME ${PROJECT_NAME})
 #Set Linker flags
-#set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++ ")
+set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++ ")
 add_executable(${EXECUTABLE_NAME} ${SOURCE_FILES})
 if (WIN32)
     list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
