@@ -12,41 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b26c0c4-3505-4792-9cf1-6c224f2f8662" name="Default" comment="Prepare to true work">
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/Entity/Brick.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/LevelRoom/RoomLevel.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/include/PlayLevel/PlayedLevel.h" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Brick.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/LevelRoom/RoomLevel.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PlayLevel/PlayedLevel.cpp" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/objects1.rsp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/objects1.rsp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFML_GAME.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SFML_GAME.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/SFML_GAME.cbp" />
-      <change beforePath="$PROJECT_DIR$/include/Entity/Entity.h" afterPath="$PROJECT_DIR$/include/Entity/Entity.h" />
-      <change beforePath="$PROJECT_DIR$/include/Entity/Player.h" afterPath="$PROJECT_DIR$/include/Entity/Player.h" />
-      <change beforePath="$PROJECT_DIR$/include/GameStates/PlayState.h" afterPath="$PROJECT_DIR$/include/GameStates/PlayState.h" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Entity.cpp" afterPath="$PROJECT_DIR$/src/Entity/Entity.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Player.cpp" afterPath="$PROJECT_DIR$/src/Entity/Player.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/GameStates/PlayState.cpp" afterPath="$PROJECT_DIR$/src/GameStates/PlayState.cpp" />
-    </list>
+    <list default="true" id="7b26c0c4-3505-4792-9cf1-6c224f2f8662" name="Default" comment="Prepare to true work" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -537,7 +503,7 @@
       <workItem from="1522769603902" duration="7259000" />
       <workItem from="1522783405441" duration="881000" />
       <workItem from="1522785557842" duration="643000" />
-      <workItem from="1522786234890" duration="3520000" />
+      <workItem from="1522786234890" duration="3910000" />
     </task>
     <task id="LOCAL-00001" summary="Projek początkowy&#10;Lista zmian | data | co zmienione">
       <created>1514400378582</created>
@@ -550,7 +516,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311837000" />
+    <option name="totallyTimeSpent" value="312227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
