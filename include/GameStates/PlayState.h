@@ -5,16 +5,19 @@
 #ifndef SFML_GAME_PLAYSTATE_H
 #define SFML_GAME_PLAYSTATE_H
 
-
+#include <Entity/Brick.h>
 #include <Entity/Player.h>
 #include "GameState.h"
+#include <vector>
+#include <memory>
 
 class PlayState : public GameState
 {
 private:
     sf::View viewe;
     std::shared_ptr<sf::Event> event;
-    std::unique_ptr<Player> player;
+    std::shared_ptr<Player> player;
+    std::vector<std::shared_ptr<Entity>> level;
 public:
     ~PlayState();
     void draw();

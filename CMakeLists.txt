@@ -12,6 +12,8 @@ if (WIN32)
     set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/build/windows")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
     message("## Project patch: " "${CMAKE_SOURCE_DIR}")
+    set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++ ")
+    #set(LIBWINPTHREAD_DLL "${MINGW_BIN_PATH}\\libwinpthread-1.dll")
 endif (WIN32)
 
 if (UNIX)
@@ -20,6 +22,7 @@ if (UNIX)
     set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "$${CMAKE_SOURCE_DIR}/build/linux")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
     message("## Project patch: " "${CMAKE_SOURCE_DIR}/SFML_LIBS/Linux/SFML-2.4.2")
+   # set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 
 endif (UNIX)
 
@@ -42,11 +45,10 @@ set(SOURCE_FILES
         include/GameStates/PauseState.h
         src/Game.cpp
         include/Game.h
-        src/Entity/Entity.cpp include/Entity/Entity.h src/Entity/Player.cpp include/Entity/Player.h src/Controll/Controller.cpp include/Controll/Controller.h src/Controll/PlayerController.cpp include/Controll/PlayerController.h)
+        src/Entity/Entity.cpp include/Entity/Entity.h src/Entity/Player.cpp include/Entity/Player.h src/Controll/Controller.cpp include/Controll/Controller.h src/Controll/PlayerController.cpp include/Controll/PlayerController.h src/Entity/Brick.cpp include/Entity/Brick.h src/PlayLevel/PlayedLevel.cpp include/PlayLevel/PlayedLevel.h src/LevelRoom/RoomLevel.cpp include/LevelRoom/RoomLevel.h)
 
 set(EXECUTABLE_NAME ${PROJECT_NAME})
 #Set Linker flags
-set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++ ")
 add_executable(${EXECUTABLE_NAME} ${SOURCE_FILES})
 if (WIN32)
     list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")

@@ -10,11 +10,19 @@ PlayState::~PlayState() {
 void PlayState::draw() {
 
     player->draw(game->window);
+    for(int i=0; i<level.size();i++)
+    {
+        level[i]->draw(game->window);
+    }
 }
 
 void PlayState::update(const float dt)
 {
     player->update(dt);
+    for(int i=0; i<level.size();i++)
+    {
+        level[i]->update(dt);
+    }
 }
 
 void PlayState::input() {
@@ -46,5 +54,9 @@ PlayState::PlayState(std::shared_ptr<Game> game) {
     event = std::make_shared<sf::Event>();
 
     this->game = game;
-    player=std::unique_ptr<Player>(new Player(100,100,event));
+    player=std::shared_ptr<Player>(new Player(100,100,event, Layers::PARTICLE_LAYER));
+    level.push_back(std::shared_ptr<Entity>(new Brick(200,200,true, Layers::UNDERPLAYER_LAYER)));
+    level.push_back(std::shared_ptr<Entity>(new Brick(232,200,true, Layers::UNDERPLAYER_LAYER)));
+    level.push_back(std::shared_ptr<Entity>(new Brick(264,200,true, Layers::UNDERPLAYER_LAYER)));
+
 }

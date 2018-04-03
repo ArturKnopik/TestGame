@@ -257,6 +257,33 @@ src/Controll/PlayerController.cpp.s:
 	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.s
 .PHONY : src/Controll/PlayerController.cpp.s
 
+src/Entity/Brick.obj: src/Entity/Brick.cpp.obj
+
+.PHONY : src/Entity/Brick.obj
+
+# target to build an object file
+src/Entity/Brick.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj
+.PHONY : src/Entity/Brick.cpp.obj
+
+src/Entity/Brick.i: src/Entity/Brick.cpp.i
+
+.PHONY : src/Entity/Brick.i
+
+# target to preprocess a source file
+src/Entity/Brick.cpp.i:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.i
+.PHONY : src/Entity/Brick.cpp.i
+
+src/Entity/Brick.s: src/Entity/Brick.cpp.s
+
+.PHONY : src/Entity/Brick.s
+
+# target to generate assembly for a file
+src/Entity/Brick.cpp.s:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.s
+.PHONY : src/Entity/Brick.cpp.s
+
 src/Entity/Entity.obj: src/Entity/Entity.cpp.obj
 
 .PHONY : src/Entity/Entity.obj
@@ -446,6 +473,60 @@ src/GameStates/PlayState.cpp.s:
 	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/GameStates/PlayState.cpp.s
 .PHONY : src/GameStates/PlayState.cpp.s
 
+src/LevelRoom/RoomLevel.obj: src/LevelRoom/RoomLevel.cpp.obj
+
+.PHONY : src/LevelRoom/RoomLevel.obj
+
+# target to build an object file
+src/LevelRoom/RoomLevel.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj
+.PHONY : src/LevelRoom/RoomLevel.cpp.obj
+
+src/LevelRoom/RoomLevel.i: src/LevelRoom/RoomLevel.cpp.i
+
+.PHONY : src/LevelRoom/RoomLevel.i
+
+# target to preprocess a source file
+src/LevelRoom/RoomLevel.cpp.i:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.i
+.PHONY : src/LevelRoom/RoomLevel.cpp.i
+
+src/LevelRoom/RoomLevel.s: src/LevelRoom/RoomLevel.cpp.s
+
+.PHONY : src/LevelRoom/RoomLevel.s
+
+# target to generate assembly for a file
+src/LevelRoom/RoomLevel.cpp.s:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.s
+.PHONY : src/LevelRoom/RoomLevel.cpp.s
+
+src/PlayLevel/PlayedLevel.obj: src/PlayLevel/PlayedLevel.cpp.obj
+
+.PHONY : src/PlayLevel/PlayedLevel.obj
+
+# target to build an object file
+src/PlayLevel/PlayedLevel.cpp.obj:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj
+.PHONY : src/PlayLevel/PlayedLevel.cpp.obj
+
+src/PlayLevel/PlayedLevel.i: src/PlayLevel/PlayedLevel.cpp.i
+
+.PHONY : src/PlayLevel/PlayedLevel.i
+
+# target to preprocess a source file
+src/PlayLevel/PlayedLevel.cpp.i:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.i
+.PHONY : src/PlayLevel/PlayedLevel.cpp.i
+
+src/PlayLevel/PlayedLevel.s: src/PlayLevel/PlayedLevel.cpp.s
+
+.PHONY : src/PlayLevel/PlayedLevel.s
+
+# target to generate assembly for a file
+src/PlayLevel/PlayedLevel.cpp.s:
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.s
+.PHONY : src/PlayLevel/PlayedLevel.cpp.s
+
 src/settings.obj: src/settings.cpp.obj
 
 .PHONY : src/settings.obj
@@ -497,6 +578,9 @@ help:
 	@echo ... src/Controll/PlayerController.obj
 	@echo ... src/Controll/PlayerController.i
 	@echo ... src/Controll/PlayerController.s
+	@echo ... src/Entity/Brick.obj
+	@echo ... src/Entity/Brick.i
+	@echo ... src/Entity/Brick.s
 	@echo ... src/Entity/Entity.obj
 	@echo ... src/Entity/Entity.i
 	@echo ... src/Entity/Entity.s
@@ -518,6 +602,12 @@ help:
 	@echo ... src/GameStates/PlayState.obj
 	@echo ... src/GameStates/PlayState.i
 	@echo ... src/GameStates/PlayState.s
+	@echo ... src/LevelRoom/RoomLevel.obj
+	@echo ... src/LevelRoom/RoomLevel.i
+	@echo ... src/LevelRoom/RoomLevel.s
+	@echo ... src/PlayLevel/PlayedLevel.obj
+	@echo ... src/PlayLevel/PlayedLevel.i
+	@echo ... src/PlayLevel/PlayedLevel.s
 	@echo ... src/settings.obj
 	@echo ... src/settings.i
 	@echo ... src/settings.s

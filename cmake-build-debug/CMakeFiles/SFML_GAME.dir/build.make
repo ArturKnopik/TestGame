@@ -381,6 +381,81 @@ CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj.provides: CMakeFi
 CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj.provides.build: CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj
 
 
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj: CMakeFiles/SFML_GAME.dir/flags.make
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj: CMakeFiles/SFML_GAME.dir/includes_CXX.rsp
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj: ../src/Entity/Brick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Dropbox\projekty\TestGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SFML_GAME.dir\src\Entity\Brick.cpp.obj -c C:\Dropbox\projekty\TestGame\src\Entity\Brick.cpp
+
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Dropbox\projekty\TestGame\src\Entity\Brick.cpp > CMakeFiles\SFML_GAME.dir\src\Entity\Brick.cpp.i
+
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Dropbox\projekty\TestGame\src\Entity\Brick.cpp -o CMakeFiles\SFML_GAME.dir\src\Entity\Brick.cpp.s
+
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj.requires:
+
+.PHONY : CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj.requires
+
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj.provides: CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj.provides.build
+.PHONY : CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj.provides
+
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj.provides.build: CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj
+
+
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj: CMakeFiles/SFML_GAME.dir/flags.make
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj: CMakeFiles/SFML_GAME.dir/includes_CXX.rsp
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj: ../src/PlayLevel/PlayedLevel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Dropbox\projekty\TestGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SFML_GAME.dir\src\PlayLevel\PlayedLevel.cpp.obj -c C:\Dropbox\projekty\TestGame\src\PlayLevel\PlayedLevel.cpp
+
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Dropbox\projekty\TestGame\src\PlayLevel\PlayedLevel.cpp > CMakeFiles\SFML_GAME.dir\src\PlayLevel\PlayedLevel.cpp.i
+
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Dropbox\projekty\TestGame\src\PlayLevel\PlayedLevel.cpp -o CMakeFiles\SFML_GAME.dir\src\PlayLevel\PlayedLevel.cpp.s
+
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj.requires:
+
+.PHONY : CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj.requires
+
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj.provides: CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj.provides.build
+.PHONY : CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj.provides
+
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj.provides.build: CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj
+
+
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj: CMakeFiles/SFML_GAME.dir/flags.make
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj: CMakeFiles/SFML_GAME.dir/includes_CXX.rsp
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj: ../src/LevelRoom/RoomLevel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Dropbox\projekty\TestGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SFML_GAME.dir\src\LevelRoom\RoomLevel.cpp.obj -c C:\Dropbox\projekty\TestGame\src\LevelRoom\RoomLevel.cpp
+
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Dropbox\projekty\TestGame\src\LevelRoom\RoomLevel.cpp > CMakeFiles\SFML_GAME.dir\src\LevelRoom\RoomLevel.cpp.i
+
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Dropbox\projekty\TestGame\src\LevelRoom\RoomLevel.cpp -o CMakeFiles\SFML_GAME.dir\src\LevelRoom\RoomLevel.cpp.s
+
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj.requires:
+
+.PHONY : CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj.requires
+
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj.provides: CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\SFML_GAME.dir\build.make CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj.provides.build
+.PHONY : CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj.provides
+
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj.provides.build: CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj
+
+
 # Object files for target SFML_GAME
 SFML_GAME_OBJECTS = \
 "CMakeFiles/SFML_GAME.dir/main.cpp.obj" \
@@ -395,7 +470,10 @@ SFML_GAME_OBJECTS = \
 "CMakeFiles/SFML_GAME.dir/src/Entity/Entity.cpp.obj" \
 "CMakeFiles/SFML_GAME.dir/src/Entity/Player.cpp.obj" \
 "CMakeFiles/SFML_GAME.dir/src/Controll/Controller.cpp.obj" \
-"CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj"
+"CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj" \
+"CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj" \
+"CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj" \
+"CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj"
 
 # External object files for target SFML_GAME
 SFML_GAME_EXTERNAL_OBJECTS =
@@ -413,6 +491,9 @@ SFML_GAME_EXTERNAL_OBJECTS =
 ../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/src/Entity/Player.cpp.obj
 ../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/src/Controll/Controller.cpp.obj
 ../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj
+../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj
+../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj
+../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj
 ../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/build.make
 ../build/windows/SFML_GAME.exe: ../SFML_LIBS/Windows/SFML-2.4.2/lib/libsfml-graphics-s.a
 ../build/windows/SFML_GAME.exe: ../SFML_LIBS/Windows/SFML-2.4.2/lib/libsfml-window-s.a
@@ -422,7 +503,7 @@ SFML_GAME_EXTERNAL_OBJECTS =
 ../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/linklibs.rsp
 ../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/objects1.rsp
 ../build/windows/SFML_GAME.exe: CMakeFiles/SFML_GAME.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Dropbox\projekty\TestGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ..\build\windows\SFML_GAME.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Dropbox\projekty\TestGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable ..\build\windows\SFML_GAME.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SFML_GAME.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -443,6 +524,9 @@ CMakeFiles/SFML_GAME.dir/requires: CMakeFiles/SFML_GAME.dir/src/Entity/Entity.cp
 CMakeFiles/SFML_GAME.dir/requires: CMakeFiles/SFML_GAME.dir/src/Entity/Player.cpp.obj.requires
 CMakeFiles/SFML_GAME.dir/requires: CMakeFiles/SFML_GAME.dir/src/Controll/Controller.cpp.obj.requires
 CMakeFiles/SFML_GAME.dir/requires: CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj.requires
+CMakeFiles/SFML_GAME.dir/requires: CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj.requires
+CMakeFiles/SFML_GAME.dir/requires: CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj.requires
+CMakeFiles/SFML_GAME.dir/requires: CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj.requires
 
 .PHONY : CMakeFiles/SFML_GAME.dir/requires
 

@@ -670,6 +670,12 @@ SFML/Window/Keyboard.hpp
 Controller.h
 ../include/Controll/Controller.h
 
+../include/Entity/Brick.h
+SFML/Graphics/RectangleShape.hpp
+-
+Entity.h
+../include/Entity/Entity.h
+
 ../include/Entity/Entity.h
 memory
 -
@@ -721,10 +727,34 @@ GameState.h
 ../include/GameStates/GameState.h
 
 ../include/GameStates/PlayState.h
+Entity/Brick.h
+-
 Entity/Player.h
 -
 GameState.h
 ../include/GameStates/GameState.h
+vector
+-
+memory
+-
+
+../include/LevelRoom/RoomLevel.h
+memory
+-
+vector
+-
+Entity/Entity.h
+-
+
+../include/PlayLevel/PlayedLevel.h
+string
+-
+LevelRoom/RoomLevel.h
+-
+memory
+-
+vector
+-
 
 C:/Dropbox/projekty/TestGame/include/Game.h
 vector
@@ -770,6 +800,10 @@ C:/Dropbox/projekty/TestGame/src/Controll/PlayerController.cpp
 Controll/PlayerController.h
 C:/Dropbox/projekty/TestGame/src/Controll/Controll/PlayerController.h
 
+C:/Dropbox/projekty/TestGame/src/Entity/Brick.cpp
+Entity/Brick.h
+C:/Dropbox/projekty/TestGame/src/Entity/Entity/Brick.h
+
 C:/Dropbox/projekty/TestGame/src/Entity/Entity.cpp
 Entity/Entity.h
 C:/Dropbox/projekty/TestGame/src/Entity/Entity/Entity.h
@@ -807,6 +841,14 @@ GameStates/PlayState.h
 C:/Dropbox/projekty/TestGame/src/GameStates/GameStates/PlayState.h
 GameStates/PauseState.h
 C:/Dropbox/projekty/TestGame/src/GameStates/GameStates/PauseState.h
+
+C:/Dropbox/projekty/TestGame/src/LevelRoom/RoomLevel.cpp
+LevelRoom/RoomLevel.h
+C:/Dropbox/projekty/TestGame/src/LevelRoom/LevelRoom/RoomLevel.h
+
+C:/Dropbox/projekty/TestGame/src/PlayLevel/PlayedLevel.cpp
+PlayLevel/PlayedLevel.h
+C:/Dropbox/projekty/TestGame/src/PlayLevel/PlayLevel/PlayedLevel.h
 
 C:/Dropbox/projekty/TestGame/src/settings.cpp
 

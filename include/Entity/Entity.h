@@ -8,6 +8,14 @@
 #ifndef SFML_GAME_ENTITY_H
 #define SFML_GAME_ENTITY_H
 
+enum Layers {
+    BACKGROUND_LAYER,
+    UNDERPLAYER_LAYER,
+    PLAYER_LAYER,
+    PARTICLE_LAYER,
+    BEFOREPLAYER_LAYER,
+    WEATHER_LAYER
+};
 
 class Entity {
 private:
@@ -15,11 +23,12 @@ private:
 
     bool canCollidet;
     sf::Vector2f position;
+    Layers zLayer;
 
 public:
     Entity() = delete;
 
-    Entity(int x, int y, bool cCanCollidet);
+    Entity(int x, int y, bool cCanCollidet, Layers cZLayer);
 
     virtual ~Entity();
 
@@ -32,6 +41,8 @@ public:
     const sf::Vector2f getPosition();
 
     const bool isCollisionAble();
+
+    const short getZLayer();
 
 
 protected:

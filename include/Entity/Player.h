@@ -17,7 +17,7 @@ private:
     std::unique_ptr<PlayerController> playerControler;
     std::shared_ptr<sf::Event> event;
 public:
-    Player(int x, int y, std::shared_ptr<sf::Event> & cEvent); // to add: InputController, MomventClass, drawingStyle
+    Player(int x, int y, std::shared_ptr<sf::Event> & cEvent, Layers cZLayer); // to add: InputController, MomventClass, drawingStyle
 
     ~Player();
 

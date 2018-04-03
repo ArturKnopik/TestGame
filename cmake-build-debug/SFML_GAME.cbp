@@ -100,6 +100,9 @@
 		<Unit filename="C:/Dropbox/projekty/TestGame/include/Controll/PlayerController.h">
 			<Option target="SFML_GAME"/>
 		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/include/Entity/Brick.h">
+			<Option target="SFML_GAME"/>
+		</Unit>
 		<Unit filename="C:/Dropbox/projekty/TestGame/include/Entity/Entity.h">
 			<Option target="SFML_GAME"/>
 		</Unit>
@@ -121,6 +124,12 @@
 		<Unit filename="C:/Dropbox/projekty/TestGame/include/GameStates/PlayState.h">
 			<Option target="SFML_GAME"/>
 		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/include/LevelRoom/RoomLevel.h">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/include/PlayLevel/PlayedLevel.h">
+			<Option target="SFML_GAME"/>
+		</Unit>
 		<Unit filename="C:/Dropbox/projekty/TestGame/main.cpp">
 			<Option target="SFML_GAME"/>
 		</Unit>
@@ -134,6 +143,9 @@
 			<Option target="SFML_GAME"/>
 		</Unit>
 		<Unit filename="C:/Dropbox/projekty/TestGame/src/Controll/PlayerController.cpp">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/src/Entity/Brick.cpp">
 			<Option target="SFML_GAME"/>
 		</Unit>
 		<Unit filename="C:/Dropbox/projekty/TestGame/src/Entity/Entity.cpp">
@@ -155,6 +167,12 @@
 			<Option target="SFML_GAME"/>
 		</Unit>
 		<Unit filename="C:/Dropbox/projekty/TestGame/src/GameStates/PlayState.cpp">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/src/LevelRoom/RoomLevel.cpp">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/src/PlayLevel/PlayedLevel.cpp">
 			<Option target="SFML_GAME"/>
 		</Unit>
 		<Unit filename="C:/Dropbox/projekty/TestGame/src/settings.cpp">

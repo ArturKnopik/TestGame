@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Dropbox/projekty/TestGame/src/Buttoms/Button.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/Buttoms/Button.cpp.obj"
   "C:/Dropbox/projekty/TestGame/src/Controll/Controller.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/Controll/Controller.cpp.obj"
   "C:/Dropbox/projekty/TestGame/src/Controll/PlayerController.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj"
+  "C:/Dropbox/projekty/TestGame/src/Entity/Brick.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj"
   "C:/Dropbox/projekty/TestGame/src/Entity/Entity.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/Entity/Entity.cpp.obj"
   "C:/Dropbox/projekty/TestGame/src/Entity/Player.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/Entity/Player.cpp.obj"
   "C:/Dropbox/projekty/TestGame/src/Game.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/Game.cpp.obj"
@@ -16,6 +17,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Dropbox/projekty/TestGame/src/GameStates/MenuState.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/GameStates/MenuState.cpp.obj"
   "C:/Dropbox/projekty/TestGame/src/GameStates/PauseState.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/GameStates/PauseState.cpp.obj"
   "C:/Dropbox/projekty/TestGame/src/GameStates/PlayState.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/GameStates/PlayState.cpp.obj"
+  "C:/Dropbox/projekty/TestGame/src/LevelRoom/RoomLevel.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj"
+  "C:/Dropbox/projekty/TestGame/src/PlayLevel/PlayedLevel.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj"
   "C:/Dropbox/projekty/TestGame/src/settings.cpp" "C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/SFML_GAME.dir/src/settings.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

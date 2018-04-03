@@ -77,6 +77,7 @@ CMakeFiles/SFML_GAME.dir/main.cpp.obj
  ../include/Buttoms/Button.h
  ../include/Controll/Controller.h
  ../include/Controll/PlayerController.h
+ ../include/Entity/Brick.h
  ../include/Entity/Entity.h
  ../include/Entity/Player.h
  ../include/Game.h
@@ -306,6 +307,46 @@ CMakeFiles/SFML_GAME.dir/src/Controll/PlayerController.cpp.obj
  ../include/Controll/PlayerController.h
  ../include/Entity/Entity.h
  C:/Dropbox/projekty/TestGame/src/Controll/PlayerController.cpp
+CMakeFiles/SFML_GAME.dir/src/Entity/Brick.cpp.obj
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Config.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/BlendMode.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Color.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Drawable.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Image.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/PrimitiveType.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Rect.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Rect.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RectangleShape.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderStates.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderTarget.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderWindow.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Shape.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Transform.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Transformable.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Vertex.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/VertexArray.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/View.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Clock.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/NonCopyable.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/String.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/String.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Time.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Utf.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Utf.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Vector2.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Vector2.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/ContextSettings.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/GlResource.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/VideoMode.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/Window.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/WindowHandle.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/WindowStyle.hpp
+ ../include/Entity/Brick.h
+ ../include/Entity/Entity.h
+ C:/Dropbox/projekty/TestGame/src/Entity/Brick.cpp
 CMakeFiles/SFML_GAME.dir/src/Entity/Entity.cpp.obj
  ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Config.hpp
  ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/BlendMode.hpp
@@ -610,6 +651,7 @@ CMakeFiles/SFML_GAME.dir/src/GameStates/MenuState.cpp.obj
  ../include/Buttoms/Button.h
  ../include/Controll/Controller.h
  ../include/Controll/PlayerController.h
+ ../include/Entity/Brick.h
  ../include/Entity/Entity.h
  ../include/Entity/Player.h
  ../include/Game.h
@@ -767,6 +809,7 @@ CMakeFiles/SFML_GAME.dir/src/GameStates/PlayState.cpp.obj
  ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/WindowStyle.hpp
  ../include/Controll/Controller.h
  ../include/Controll/PlayerController.h
+ ../include/Entity/Brick.h
  ../include/Entity/Entity.h
  ../include/Entity/Player.h
  ../include/Game.h
@@ -774,5 +817,76 @@ CMakeFiles/SFML_GAME.dir/src/GameStates/PlayState.cpp.obj
  ../include/GameStates/PauseState.h
  ../include/GameStates/PlayState.h
  C:/Dropbox/projekty/TestGame/src/GameStates/PlayState.cpp
+CMakeFiles/SFML_GAME.dir/src/LevelRoom/RoomLevel.cpp.obj
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Config.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/BlendMode.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Color.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Image.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/PrimitiveType.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Rect.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Rect.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderStates.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderTarget.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderWindow.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Transform.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Vertex.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/View.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Clock.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/NonCopyable.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/String.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/String.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Time.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Utf.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Utf.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Vector2.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Vector2.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/ContextSettings.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/GlResource.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/VideoMode.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/Window.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/WindowHandle.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/WindowStyle.hpp
+ ../include/Entity/Entity.h
+ ../include/LevelRoom/RoomLevel.h
+ C:/Dropbox/projekty/TestGame/src/LevelRoom/RoomLevel.cpp
+CMakeFiles/SFML_GAME.dir/src/PlayLevel/PlayedLevel.cpp.obj
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Config.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/BlendMode.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Color.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Image.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/PrimitiveType.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Rect.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Rect.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderStates.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderTarget.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/RenderWindow.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Transform.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/Vertex.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Graphics/View.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Clock.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/NonCopyable.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/String.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/String.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Time.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Utf.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Utf.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Vector2.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/System/Vector2.inl
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/ContextSettings.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/Export.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/GlResource.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/VideoMode.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/Window.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/WindowHandle.hpp
+ ../SFML_LIBS/Windows/SFML-2.4.2/include/SFML/Window/WindowStyle.hpp
+ ../include/Entity/Entity.h
+ ../include/LevelRoom/RoomLevel.h
+ ../include/PlayLevel/PlayedLevel.h
+ C:/Dropbox/projekty/TestGame/src/PlayLevel/PlayedLevel.cpp
 CMakeFiles/SFML_GAME.dir/src/settings.cpp.obj
  C:/Dropbox/projekty/TestGame/src/settings.cpp

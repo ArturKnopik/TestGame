@@ -20,12 +20,16 @@ const bool Entity::isCollisionAble() {
     return canCollidet;
 }
 
-Entity::Entity(int x, int y, bool cCanCollidet)
-: canCollidet(cCanCollidet)
+Entity::Entity(int x, int y, bool cCanCollidet, Layers cLayer)
+: canCollidet(cCanCollidet), zLayer(cLayer)
 {
    position=sf::Vector2f(x,y);
 }
 
 Entity::~Entity() {
 
+}
+
+const short Entity::getZLayer() {
+    return zLayer;
 }

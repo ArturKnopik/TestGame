@@ -5,13 +5,12 @@
 
 #include "Entity/Player.h"
 
-Player::Player(int x, int y, std::shared_ptr<sf::Event> & cEvent)
-        : Entity(x, y, true), event(cEvent)
+Player::Player(int x, int y, std::shared_ptr<sf::Event> & cEvent, Layers cLayer)
+        : Entity(x, y, true, cLayer), event(cEvent)
 {
-
     rect.setPosition(getPosition());
     rect.setSize(sf::Vector2f(32, 32));
-    playerControler = std::unique_ptr<PlayerController>(new PlayerController(std::unique_ptr<Player>(this), 0.0002));
+    playerControler = std::unique_ptr<PlayerController>(new PlayerController(std::shared_ptr<Player>(this), 0.0002));
 
 }
 
