@@ -1,7 +1,7 @@
 
 cmake_minimum_required(VERSION 3.1)
 
-project(SFML_GAME)
+project(TestGame)
 
 
 
@@ -45,7 +45,32 @@ set(SOURCE_FILES
         include/GameStates/PauseState.h
         src/Game.cpp
         include/Game.h
-        src/Entity/Entity.cpp include/Entity/Entity.h src/Entity/Player.cpp include/Entity/Player.h src/Controll/Controller.cpp include/Controll/Controller.h src/Controll/PlayerController.cpp include/Controll/PlayerController.h src/Entity/Brick.cpp include/Entity/Brick.h src/PlayLevel/PlayedLevel.cpp include/PlayLevel/PlayedLevel.h src/LevelRoom/RoomLevel.cpp include/LevelRoom/RoomLevel.h)
+        src/Entity/Entity.cpp
+        include/Entity/Entity.h
+        src/Entity/Player.cpp
+        include/Entity/Player.h
+        src/ControllComponent/Controller.cpp
+        include/ControllComponent/Controller.h
+        src/ControllComponent/PlayerController.cpp
+        include/ControllComponent/PlayerController.h
+        src/Entity/Brick.cpp
+        include/Entity/Brick.h
+        src/Level/Level.cpp
+        include/Level/Level.h
+        src/Room/Room.cpp
+        include/Room/Room.h
+        src/Room/Test_Room.cpp
+        include/Room/Test_Room.h
+        src/Level/Test_Level.cpp
+        include/Level/Test_Level.h
+        include/Systems/CollisionChecker.h
+        src/Systems/CollisionChecker.cpp
+        include/PhysicComponent/Physics.cpp
+        include/PhysicComponent/Physics.h
+        src/Entity/SimpleEnemy.cpp
+        include/Entity/SimpleEnemy.h
+        src/ControllComponent/SimpleCreatureController.cpp
+        include/ControllComponent/SimpleCreatureController.h)
 
 set(EXECUTABLE_NAME ${PROJECT_NAME})
 #Set Linker flags

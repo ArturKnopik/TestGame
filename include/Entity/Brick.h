@@ -21,6 +21,7 @@ public:
     void draw(std::shared_ptr<sf::RenderWindow> window);
 
     void update(const float dt);
+    ~Brick();
 
 
 };

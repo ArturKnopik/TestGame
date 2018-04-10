@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Statistic">
-    <option name="separateTabsFileTypes" value="cpp;h" />
+    <option name="separateTabsFileTypes" value="cpp;h;" />
     <option name="excludeDotArtifactDirectory" value="true" />
+    <option name="activateWhenOpenProject" value="true" />
     <option name="excludedDirectories">
       <list>
         <option value="$PROJECT_DIR$/.idea" />
-        <option value="$PROJECT_DIR$/bin" />
-        <option value="$PROJECT_DIR$/cmake-build-debug" />
-        <option value="$PROJECT_DIR$/resource" />
+        <option value="$PROJECT_DIR$/build" />
         <option value="$PROJECT_DIR$/cmake" />
+        <option value="$PROJECT_DIR$/cmake-build-debug" />
+        <option value="$PROJECT_DIR$/cmake_modules" />
+        <option value="$PROJECT_DIR$/LIBS" />
+        <option value="$PROJECT_DIR$/resource" />
+        <option value="$PROJECT_DIR$/SFML_GAME_PROJECT" />
+        <option value="$PROJECT_DIR$/SFML_LIBS" />
       </list>
     </option>
   </component>

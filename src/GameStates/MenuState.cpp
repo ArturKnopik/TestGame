@@ -13,6 +13,7 @@ MenuState::MenuState(std::shared_ptr<Game> game) {
             new BasicButton("About", 100, 200, 600, 50, 50, sf::Color(0, 0, 255, 200), sf::Color(0, 255, 0, 200)));
     menuButtonElements.push_back(
             new BasicButton("Quit", 100, 300, 600, 50, 50, sf::Color(0, 100, 155, 200), sf::Color::Red));
+    std::cout<<"Create MenuState - ";
 }
 
 
@@ -108,4 +109,10 @@ void MenuState::draw() {
 
 void MenuState::loadgame() {
     game->pushState(std::shared_ptr<GameState>(new PlayState(game)));
+}
+
+MenuState::~MenuState()
+{
+    std::cout<<"Destroy MenuState - ";
+
 }

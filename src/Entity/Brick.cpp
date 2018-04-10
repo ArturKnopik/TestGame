@@ -2,6 +2,7 @@
 // Created by Root on 03.04.2018.
 //
 
+#include <iostream>
 #include "Entity/Brick.h"
 
 Brick::Brick(float x, float y, bool cCanCollidet, Layers cLayer)
@@ -9,6 +10,7 @@ Brick::Brick(float x, float y, bool cCanCollidet, Layers cLayer)
     rect.setSize(sf::Vector2f(32, 32));
     rect.setPosition(x, y);
     rect.setFillColor(sf::Color::Red);
+    std::cout<<"Create Brick - ";
 }
 
 void Brick::draw(std::shared_ptr<sf::RenderWindow> window) {
@@ -17,4 +19,9 @@ window->draw(rect);
 
 void Brick::update(const float dt) {
 
+}
+
+Brick::~Brick()
+{
+    std::cout<<"Destroy Brick - ";
 }

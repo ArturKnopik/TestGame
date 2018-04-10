@@ -15,10 +15,11 @@ private:
 public:
     PlayerController() = delete;
 
-    PlayerController(std::shared_ptr<Entity> cEntity, const float cSpeed);
+    PlayerController(std::shared_ptr<Positions> cPositions, const float cSpeed);
 
     void setEvent(std::shared_ptr<sf::Event> event);
     void control(const float dt);
+    ~PlayerController();
 
 
 };

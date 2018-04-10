@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\SFML_GAME.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\SFML_GAME.dir/objects.a @CMakeFiles\SFML_GAME.dir\objects1.rsp
-C:\MinGW\bin\g++.exe  -std=c++11 -O3 -DNDEBUG  -static-libgcc -static-libstdc++  -Wl,--whole-archive CMakeFiles\SFML_GAME.dir/objects.a -Wl,--no-whole-archive  -o ..\build\windows\SFML_GAME.exe -Wl,--out-implib,libSFML_GAME.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SFML_GAME.dir\linklibs.rsp

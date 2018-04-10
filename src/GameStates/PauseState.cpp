@@ -12,11 +12,12 @@ PauseState::PauseState(std::shared_ptr<Game> game)
 {
     this->game = game;
     game->window->setView(game->window->getDefaultView());
+    std::cout<<"Create PauseStatew - ";
 }
 
 PauseState::~PauseState()
 {
-
+    std::cout<<"Destroy PauseState - ";
 }
 
 void PauseState::draw()

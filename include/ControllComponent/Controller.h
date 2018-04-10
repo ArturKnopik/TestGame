@@ -27,13 +27,13 @@ protected:
     virtual void moveDown(const float dt);
     virtual void moveLeft(const float dt);
     virtual void moveRight(const float dt);
-    std::shared_ptr<Entity> entity;
+    std::shared_ptr<Positions> positions;
 public:
     Controller() = delete;
 
-    Controller(std::shared_ptr<Entity> cEntity, const float cSpeed );
+    Controller(std::shared_ptr<Positions> cPosytiond, const float cSpeed );
 
-    ~Controller() = default;
+    virtual ~Controller();
 
     virtual void control(const float dt)=0;
 

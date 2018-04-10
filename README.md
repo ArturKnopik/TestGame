@@ -1,4 +1,4 @@
-﻿<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQNvEqjnkYAZa4ZjqcJTX2TNqcsu-T-RBw_PMH3ZAVr6QQczC3w"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQNvEqjnkYAZa4ZjqcJTX2TNqcsu-T-RBw_PMH3ZAVr6QQczC3w"/>
 
 Skład:  
   
@@ -18,7 +18,7 @@ Skład:
  ---
  
 # Rozwój projektu - Historia
- - 30.03.2018 - Zaimportowano podstawowy szablon aplikacji:  
+ - 30.03.2018 - Zaimportowano podstawowy szablon aplikacji: 
  	+ Konfiguracja Cmake:
  		+ Widnows:
  		+ Linux (Do naprawy: na wirtualnej maszynie działa, normalnie zainstalowany Linux już nie)  
@@ -26,17 +26,26 @@ Skład:
  		+ MenuState
  		+ PlayState
  		+ PauseState  
-	- Podjęcie decyzji o stworzeniu Klona Super Mario Bros
 
  - 03.04.2018  
-  + zaimplementowano prosty model "Entity" (Abstrakcyjna) 
-     +  Player (grywalna)
-  + zaimplementowano prosty model "Controller" <Abstrakcyjna>   
-     + PlayerController (podstawowa kontrolo gracza, brak grawitacji oraz przyśpieszenia)
-  + Zaimplementowany szablon ładowania Poziomów PlayedLevel (Abstrakcyjna)
-  +  Zaimplementowany szablon ładowania części poziomów RoomLevel (Abstrakcyjna)  
-   + Dodano nowy obiekt do rodziny Entity
+   + zaimplementowano prosty model "Entity" (Abstrakcyjna) oraz dodano nową klasę do tej rodziny
+     + Player 
+   + zaimplementowano prosty model "Controller" (Abstrakcyjna) oraz dodano nową klasę do tej rodziny   
+     + PlayerController
+   + Zaimplementowany szablon ładowania Poziomów PlayedLevel (Abstrakcyjna)
+   +  Zaimplementowany szablon ładowania części poziomów RoomLevel (Abstrakcyjna)  
+   + Dodano nową klasę do rodziny Entity
      + Brick
-
+ - 10.04.2018   
+   + Drobne zmiany w Entity odnoszące się do pozycji gracza   
+   + dodano nowy obiekt do rodziny Controller
+   		+   SimpleCreatureController
+   + Dodano nową klasę do rodziny Entity
+   	 + SimpleEnemy
+   + Dodano nową klasę do rodziny Level
+   		+ Test_Level
+   + Dodano nową klasę do rodziny Room
+   		+ Test_Room
+   + Dodano CollisionChecker - wykrywanie kolizji oraz ustawianie odpowiednich flag dla obiektów typu Entity
 
 

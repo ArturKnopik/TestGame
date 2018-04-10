@@ -110,7 +110,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/SFML_GAME
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/TestGame
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/MinGW/bin/ld.exe
@@ -143,7 +143,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/MinGW/bin/objcopy.exe
 CMAKE_OBJDUMP:FILEPATH=C:/MinGW/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=SFML_GAME
+CMAKE_PROJECT_NAME:STATIC=TestGame
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
@@ -223,12 +223,6 @@ FREETYPE_LIBRARY:FILEPATH=C:/Dropbox/projekty/TestGame/SFML_LIBS/Windows/SFML-2.
 //Path to a library.
 JPEG_LIBRARY:FILEPATH=C:/Dropbox/projekty/TestGame/SFML_LIBS/Windows/SFML-2.4.2/lib/libjpeg.a
 
-//Value Computed by CMake
-SFML_GAME_BINARY_DIR:STATIC=C:/Dropbox/projekty/TestGame/cmake-build-debug
-
-//Value Computed by CMake
-SFML_GAME_SOURCE_DIR:STATIC=C:/Dropbox/projekty/TestGame
-
 //Path to a library.
 SFML_GRAPHICS_LIBRARY_DYNAMIC_DEBUG:FILEPATH=C:/Dropbox/projekty/TestGame/SFML_LIBS/Windows/SFML-2.4.2/lib/libsfml-graphics-d.a
 
@@ -264,6 +258,12 @@ SFML_WINDOW_LIBRARY_STATIC_DEBUG:FILEPATH=C:/Dropbox/projekty/TestGame/SFML_LIBS
 
 //Path to a library.
 SFML_WINDOW_LIBRARY_STATIC_RELEASE:FILEPATH=C:/Dropbox/projekty/TestGame/SFML_LIBS/Windows/SFML-2.4.2/lib/libsfml-window-s.a
+
+//Value Computed by CMake
+TestGame_BINARY_DIR:STATIC=C:/Dropbox/projekty/TestGame/cmake-build-debug
+
+//Value Computed by CMake
+TestGame_SOURCE_DIR:STATIC=C:/Dropbox/projekty/TestGame
 
 
 ########################

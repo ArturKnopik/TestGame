@@ -6,23 +6,27 @@
 #define SFML_GAME_PLAYLEVEL_H
 
 #include <string>
-#include <LevelRoom/RoomLevel.h>
 #include <memory>
 #include <vector>
+#include <Room/Room.h>
 
-class PlayedLevel
+class Level
 {
-    std::unique_ptr<RoomLevel> currentRoom;
-    std::vector<std::unique_ptr<RoomLevel>> roomsVector;
+protected:
+    std::unique_ptr<Room> currentRoom;
+    std::vector<std::unique_ptr<Room>> roomsVector;
+    std::shared_ptr<sf::Event> event;
 
 public:
-    PlayedLevel() = delete;
+    Level() = default;
 
-    PlayedLevel(const std::string urlToLevel);
-
+    Level(const std::string urlToLevel, std::shared_ptr<sf::Event> cEvent);
+    virtual ~Level();
     virtual void update(const float dt)=0;
 
     virtual void loadLevel(std::string urlToLevel)=0;
+
+    virtual void draw(std::shared_ptr<sf::RenderWindow> window)=0;
 
     virtual void saveLevel()=0; // to future use
 

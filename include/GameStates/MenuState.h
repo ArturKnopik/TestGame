@@ -28,7 +28,7 @@ public:
     void update(const float dt);
 
     void input();
-
+    ~MenuState();
 private:
     void loadgame();
 

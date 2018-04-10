@@ -124,10 +124,19 @@
 		<Unit filename="C:/Dropbox/projekty/TestGame/include/GameStates/PlayState.h">
 			<Option target="SFML_GAME"/>
 		</Unit>
-		<Unit filename="C:/Dropbox/projekty/TestGame/include/LevelRoom/RoomLevel.h">
+		<Unit filename="C:/Dropbox/projekty/TestGame/include/Level/Level.h">
 			<Option target="SFML_GAME"/>
 		</Unit>
-		<Unit filename="C:/Dropbox/projekty/TestGame/include/PlayLevel/PlayedLevel.h">
+		<Unit filename="C:/Dropbox/projekty/TestGame/include/Level/Test_Level.h">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/include/Room/Room.h">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/include/Room/Test_Room.h">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/include/Systems/CollisionChecker.h">
 			<Option target="SFML_GAME"/>
 		</Unit>
 		<Unit filename="C:/Dropbox/projekty/TestGame/main.cpp">
@@ -169,10 +178,19 @@
 		<Unit filename="C:/Dropbox/projekty/TestGame/src/GameStates/PlayState.cpp">
 			<Option target="SFML_GAME"/>
 		</Unit>
-		<Unit filename="C:/Dropbox/projekty/TestGame/src/LevelRoom/RoomLevel.cpp">
+		<Unit filename="C:/Dropbox/projekty/TestGame/src/Level/Level.cpp">
 			<Option target="SFML_GAME"/>
 		</Unit>
-		<Unit filename="C:/Dropbox/projekty/TestGame/src/PlayLevel/PlayedLevel.cpp">
+		<Unit filename="C:/Dropbox/projekty/TestGame/src/Level/Test_Level.cpp">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/src/Room/Room.cpp">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/src/Room/Test_Room.cpp">
+			<Option target="SFML_GAME"/>
+		</Unit>
+		<Unit filename="C:/Dropbox/projekty/TestGame/src/Systems/CollisionChecker.cpp">
 			<Option target="SFML_GAME"/>
 		</Unit>
 		<Unit filename="C:/Dropbox/projekty/TestGame/src/settings.cpp">

@@ -21,5 +21,6 @@ public:
     void draw();
     void update(const float dt);
     void input();
+
 };
 #endif //SFML_GAME_PAUSESTATE_H
