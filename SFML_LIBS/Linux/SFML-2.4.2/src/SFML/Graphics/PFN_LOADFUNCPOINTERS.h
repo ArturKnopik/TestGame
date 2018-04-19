@@ -1,0 +1,6 @@
+#ifndef _PFN_LOADFUNCPOINTERS_H
+#define _PFN_LOADFUNCPOINTERS_H
+
+
+typedef int(* PFN_LOADFUNCPOINTERS)(void);
+#endif

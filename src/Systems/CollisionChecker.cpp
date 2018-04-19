@@ -15,7 +15,7 @@ CollisionChecker::CollisionChecker()
 bool CollisionChecker::checkAABB(std::unique_ptr<Entity> &left, std::unique_ptr<Entity> &right)
 {
 
-
+	return true;
 }
 
 void CollisionChecker::checkEntityInhArray(std::vector<std::unique_ptr<Entity>> & mapEntity)

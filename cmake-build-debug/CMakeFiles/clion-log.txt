@@ -1,6 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2017.3.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Dropbox\projekty\TestGame
-## Project patch: C:/Dropbox/projekty/TestGame
--- Found SFML 2.4.2 in C:/Dropbox/projekty/TestGame/SFML_LIBS/Windows/SFML-2.4.2/include
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Dropbox/projekty/TestGame/cmake-build-debug

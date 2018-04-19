@@ -9,7 +9,7 @@
 # example:
 #   find_package(SFML COMPONENTS graphics window system) # find the graphics, window and system modules
 #
-# You can enforce cmake_modules specific version, either MAJOR.MINOR or only MAJOR.
+# You can enforce a specific version, either MAJOR.MINOR or only MAJOR.
 # If nothing is specified, the version won't be checked (i.e. any version will be accepted).
 # example:
 #   find_package(SFML COMPONENTS ...)     # no specific version required
@@ -31,7 +31,7 @@
 # Moreover, keep in mind that SFML frameworks are only available as release libraries unlike dylibs which
 # are available for both release and debug modes.
 #
-# If SFML is not installed in cmake_modules standard path, you can use the SFML_ROOT CMake (or environment) variable
+# If SFML is not installed in a standard path, you can use the SFML_ROOT CMake (or environment) variable
 # to tell CMake where SFML is.
 #
 # Output
@@ -82,7 +82,7 @@ find_path(SFML_INCLUDE_DIR SFML/Config.hpp
 set(SFML_VERSION_OK TRUE)
 if(SFML_FIND_VERSION AND SFML_INCLUDE_DIR)
     # extract the major and minor version numbers from SFML/Config.hpp
-    # we have to handle framework cmake_modules little bit differently:
+    # we have to handle framework a little bit differently:
     if("${SFML_INCLUDE_DIR}" MATCHES "SFML.framework")
         set(SFML_CONFIG_HPP_INPUT "${SFML_INCLUDE_DIR}/Headers/Config.hpp")
     else()
@@ -124,7 +124,7 @@ foreach(FIND_SFML_COMPONENT ${SFML_FIND_COMPONENTS})
     string(TOUPPER ${FIND_SFML_COMPONENT} FIND_SFML_COMPONENT_UPPER)
     set(FIND_SFML_COMPONENT_NAME sfml-${FIND_SFML_COMPONENT_LOWER})
 
-    # no suffix for sfml-main, it is always cmake_modules static library
+    # no suffix for sfml-main, it is always a static library
     if(FIND_SFML_COMPONENT_LOWER STREQUAL "main")
         # release library
         find_library(SFML_${FIND_SFML_COMPONENT_UPPER}_LIBRARY_RELEASE
@@ -240,7 +240,7 @@ if(SFML_STATIC_LIBRARIES)
     set(SFML_DEPENDENCIES)
     set(FIND_SFML_DEPENDENCIES_NOTFOUND)
 
-    # macro that searches for cmake_modules 3rd-party library
+    # macro that searches for a 3rd-party library
     macro(find_sfml_dependency output friendlyname)
         # No lookup in environment variables (PATH on Windows), as they may contain wrong library versions
         find_library(${output} NAMES ${ARGN} PATHS ${FIND_SFML_PATHS} PATH_SUFFIXES lib NO_SYSTEM_ENVIRONMENT_PATH)
@@ -352,7 +352,7 @@ endif()
 if (NOT SFML_FOUND)
     if(SFML_FIND_REQUIRED)
         # fatal error
-#        message(FATAL_ERROR ${FIND_SFML_ERROR})
+        message(FATAL_ERROR ${FIND_SFML_ERROR})
     elseif(NOT SFML_FIND_QUIETLY)
         # error but continue
         message("${FIND_SFML_ERROR}")

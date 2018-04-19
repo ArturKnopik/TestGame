@@ -1,3 +1,0 @@
-C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/TestGame.dir
-C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Dropbox/projekty/TestGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir

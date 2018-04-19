@@ -4,14 +4,14 @@
 #include <cstdlib>
 #include <ctime>
 
-#include "dirent.h"
+//#include "dirent.h"
 #include <fstream>
 #include <string>
-
+#include <iostream>
 
 int main()
 {
-   // std::cout<<"test"<<std::endl;
+    std::cout<<"test"<<std::endl;
     srand( time( NULL ) );
     std::shared_ptr<Game> game;
     game = std::make_shared<Game>() ;
